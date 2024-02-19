@@ -1,0 +1,21 @@
+name: project-0
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - anarci=2021.02.04
+  - biopandas=0.2.4
+  - muscle=3.8.1551
+  - biopython=1.79
+  - ihm=0.25
+  - coverage=6.2
+  - codecov=2.1.11
+  - hmmer=3.3.2
+  - pip=21.3.1
+  - pytest=6.2.5
+  - click=8.0.3
+  - pip:
+      - pdb-tools==2.4.1
+      - pyfunctional==1.4.3
